@@ -6,6 +6,10 @@ const typeDefs = gql`
     title: String
     description: String
   }
+
+  type Query {
+    slides: [Slide]
+  }
 `;
 
 const slides = [
@@ -33,3 +37,11 @@ const slides = [
       "Shawn has been working in the hospitality industry for over 20 years, he has years of experience helping brands in the food & beverage sphere as well as the drinks industry target and attain their goals through CPG design, product development and social media content creation, strategy and marketing.",
   },
 ];
+
+const resolvers = {
+  Query: {
+    slides: () => {
+      return slides;
+    },
+  },
+};
