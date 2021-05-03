@@ -1,0 +1,19 @@
+{
+  "name": "graphqlserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamBrown101/LUTGrahqlServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamBrown101/LUTGrahqlServer/issues"
+  },
+  "homepage": "https://github.com/CamBrown101/LUTGrahqlServer#readme"
+}
